@@ -1,0 +1,82 @@
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .div1 {
+    margin-top: 23vh;
+    
+   
+    margin-left: 2vw;
+  }
+  .d1,
+  .d2,.d3,.d4,.d5 {
+    display: flex;
+    gap: 3.1rem;
+    text-align: center;
+  }
+  
+  .div1 ol li{
+   
+    text-decoration: none;
+    position: sticky;
+    line-height: 23px;
+  gap: 3rem;
+  }
+
+  button{
+    color: black;
+    padding: 7px 25px;
+   flex-wrap: nowrap;
+    border-radius: 2px;
+  }
+  
+  .d1  .box img{
+      width: 20vw;
+      height: 34vh;
+      border-radius: 13px;
+      position: relative;
+  
+  }
+  .div2 {
+    width: 690px;
+    flex-wrap: nowrap;
+  
+    align-items: center;
+  
+    gap: 1.1rem;
+   
+    border-radius: 13px;
+  }
+  
+  .box {
+    flex-wrap: nowrap;
+    width: 29vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 13px;
+    margin: 2rem;
+  }
+  
+
+  .box p{
+      position: absolute;
+      font-size: 2vh;
+      color: black;
+  }
+  
+  .div1 a{
+      text-decoration: none;
+  
+  }
+  .div1 a:hover{
+      /* text-decoration: none; */
+      color: red;
+  
+  }

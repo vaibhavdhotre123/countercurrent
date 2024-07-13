@@ -1,0 +1,80 @@
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+}
+.div1 {
+  margin-top: 23vh;
+  position: sticky;
+}
+.d1,
+.d2,.d3,.d4,.d5 {
+  display: flex;
+  gap: 1.1rem;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.y1 p{
+  font-size: 4rem;
+  text-align: center;
+}
+.navbar{
+  background-color: black;
+  margin: 4rem;
+  border: 1px solid white;
+  display: flex;
+}
+
+a{
+  text-align: center;
+}
+
+.d1  .box img{
+    width: 24vw;
+    height: 34vh;
+    border-radius: 13px;
+    position: relative;
+
+}
+.div2 {
+  width: 690px;
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+  gap: 1.1rem;
+  border: 1px solid white;
+  border-radius: 13px;
+}
+
+.box {
+  flex-wrap: nowrap;
+  width: 29vw;
+  height: 40vh;
+  border: 1px solid black;
+  border-radius: 13px;
+}
+
+.div1 img{
+    position: relative;
+    
+}
+.box p{
+    position: absolute;
+    font-size: 2vh;
+    color: black;
+}
+
+.div1 a{
+    text-decoration: none;
+
+}
+.div1 a:hover{
+    /* text-decoration: none; */
+    color: red;
+
+}

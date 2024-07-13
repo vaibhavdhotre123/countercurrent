@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar ul li {
+            margin: 0;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .t1 img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .r1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .r11 img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .r22 {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .r22 h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .t2 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .c1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f9f9f9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .c11 {
+            color: rgb(113, 113, 174);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .c11 hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            width: 80%;
+        }
+
+        .c1 input[type="text"] {
+            width: 80%;
+            max-width: 200px;
+            height: 40px;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .c1 button {
+            width: 100%;
+            max-width: 200px;
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .c22 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .c22 h2 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .c22 hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            width: 60%;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            margin: 0.12rem;
+            justify-content: space-between;
+            margin-left: 12rem;
+            font-weight: 1rem;
+            color: orange;
+            text-decoration: none;
+            list-style-type: none;
+            padding-left: 0;
+          
+           }
+
+        .c22 h4 {
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        .c33 {
+            text-align: center;
+        }
+
+        .c33 hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            width: 60%;
+        }
+
+        .c33 p {
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar ul {
+                margin-top: 10px;
+                flex-direction: column;
+            }
+
+            .r1 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .c1 {
+                padding: 10px;
+            }
+
+            .c1 input[type="text"], .c1 button {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div  class="navbar">
+        <ul style="display: flex; font-size:1rem;font-weight:2rem" >
+           
+            <a href="header.html"> <li>Home</li></a>
+            <a href="about.html"> <li>About</li></a>
+          
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <a href="carrer.html"><li>Carrer</li></a>
+    
+           <a href="contactus.html"> <li>Contact-Us</li></a>
+        </ul>
+    </div>
+
+    <div class="t1">
+        <img src="https://img.freepik.com/free-psd/technology-template-design_23-2150522184.jpg?t=st=1720663339~exp=1720666939~hmac=ca760fdc42bdae8ee365897c94c6f9d6e9ca995f908f33838fd2b1fe3fde8746&w=1380" alt="">
+    </div>
+
+    <div class="r1">
+        <div class="r11">
+            <img src="http://swayambhustrategy.com/static/media/social-media-gif.88944ed9d586a12dc6c8.gif" alt="">
+        </div>
+        <div class="r22">
+            <h3>At CounterCurrent, we specialize in creating high-quality content for various social media platforms, including LinkedIn, Facebook, Instagram, Twitter, and others. Our unique approach leverages the power of AI to optimize content for maximum engagement and effectiveness.</h3>
+            <h3>We produce targeted advertisements for YouTube and TV, utilizing AI to enhance the creative process and deliver superior results. Our AI-driven strategies ensure your promotions are impactful, reaching the right audience at the right time.</h3>
+        </div>
+    </div>
+
+    <div class="t2">
+        <h1>Let's Dive Deeper into Social Media Activities</h1>
+    </div>
+
+    <div class="c1">
+        <h3>Counter-Current</h3>
+        <div class="c11">
+            <span>Info</span>-Tech
+            <hr>
+            <p>We build the Techno-Crats</p>
+        </div>
+        <input type="text" placeholder="Enter your email">
+        <button>SUBSCRIBE</button>
+        <div class="c22">
+            <h2>Follow Us On:</h2>
+            <hr>
+            <h4><i class="ri-facebook-box-fill"></i> Facebook</h4>
+            <h4><i class="ri-linkedin-box-fill"></i> LinkedIn</h4>
+            <h4><i class="ri-twitter-fill"></i> Twitter</h4>
+        </div>
+        <div class="c33">
+            <h4>Contact us:</h4>
+            <hr>
+            <p>Priyanka Daithankar <br>
+            (+91-9763978086)</p>
+        </div>
+    </div>
+
+</body>
+</html>

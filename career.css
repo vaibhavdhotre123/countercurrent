@@ -1,0 +1,384 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: flex;
+    align-items: center;
+    margin: 0.12rem;
+    justify-content: space-between;
+    margin-left: 12rem;
+    font-weight: 1rem;
+    color: orange;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+  
+   }
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    width: 50rem;
+    max-width: 600px; /* Adjust as needed */
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.text h1 {
+    font-size: 1.2vw;
+    /* line-height: ; */
+    margin-bottom: 1rem;
+}
+
+.text button {
+    padding: 1rem 2rem;
+    margin-right: 1rem;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.text button:hover {
+    background-color: #45a049;
+}
+
+.y1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.c11 {
+    flex: 1;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+
+.c11 h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.c11 hr {
+    width: 6rem;
+    margin: 0 auto;
+    border-color: white;
+}
+
+.c11 p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.c11 button {
+    padding: 0.7rem 1.5rem;
+    background-color: rgb(195, 195, 208);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease;
+}
+
+.c11 button:hover {
+    background-color: #bbb;
+}
+
+.c22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+}
+
+.y2 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.y2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.y2 a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.y2 a:hover {
+    text-decoration: underline;
+}
+
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.div1 video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.div2 {
+    flex: 1;
+    color: white;
+    max-width: 400px;
+    margin-left: 2rem;
+}
+
+.div2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.div2 input,
+.div2 textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.div2 textarea {
+    height: 8rem;
+}
+
+.div2 button {
+    padding: 0.7rem 1.5rem;
+    background-color: rgb(195, 195, 208);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease;
+}
+
+.div2 button:hover {
+    background-color: #bbb;
+}
+
+.c1 {
+    background-color: #39383d;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    /* margin: 2rem 0; */
+}
+
+.c1 h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.c1 input[type="text"],
+.c1 button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.c1 input[type="text"] {
+    width: calc(100% - 10rem);
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.c1 button {
+    width: 7rem;
+    background-color: rgb(195, 195, 208);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.c1 button:hover {
+    background-color: #bbb;
+}
+
+.c22 {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    margin-top: 2.4rem;
+}
+
+.c22 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.c22 h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-top: 1.5rem;
+}
+
+.c22 h4:hover {
+    color: #4CAF50;
+}
+
+.c33 {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.c33 h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.c33 p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .text h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    .text button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .c11 {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .c11 h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .c22 .box {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .div {
+        flex-direction: column;
+    }
+
+    .div1 img {
+        margin: 1rem 0;
+    }
+
+    .div2 {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .c1 {
+        padding: 1rem;
+    }
+
+    .c1 h3 {
+        font-size: 1.5rem;
+    }
+
+    .c1 input[type="text"] {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .c1 button {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .c22 {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .c22 h4 {
+        font-size: 1rem;
+    }
+}

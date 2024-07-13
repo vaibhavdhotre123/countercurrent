@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Popup</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div id="main8">
+        <img style="width: 29rem;margin-left:14px" src="https://img.freepik.com/free-vector/man-saying-no-concept-illustration_114360-14222.jpg?t=st=1720809748~exp=1720813348~hmac=a3cf416d81cb7b826c38ad6fd79b0576e6f4b476aad2298064fe41390acc5de1&w=740" alt=""> 
+        <!-- <h2>Get Ready For the <span style="color: red;">#</span>Project Work</h2> -->
+        <button style="margin-left: 18vw;" class="open-button" id="openButton"> <span style="color: red;">#</span>Project Work</h2></button>
+        <div class="form-popup" id="contactForm">
+            <form action="#" class="form-container">
+                <h2>Submit the Form</h2>
+                
+                <div class="form-group">
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" class="form-control" placeholder="Enter Your Name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message"><b>Project-Description</b></label>
+                    <textarea class="form-control" placeholder="Enter Your Message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Send</button>
+                <button type="button" class="btn btn-secondary btn-block" id="closeButton">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById("openButton").addEventListener("click", function() {
+            document.getElementById("contactForm").style.display = "block";
+        });
+
+        document.getElementById("closeButton").addEventListener("click", function() {
+            document.getElementById("contactForm").style.display = "none";
+        });
+    </script>
+</body>
+<style>
+    .open-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        position: fixed;
+        margin-top: 23rem;
+       
+     margin-left: 36rem;
+        width: 280px;
+    }
+    .form-popup {
+        display: none;
+   
+      margin-bottom: 12vh;
+        left: 55px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+        background-color: white;
+        padding: 20px;
+    }
+</style>
+</html>

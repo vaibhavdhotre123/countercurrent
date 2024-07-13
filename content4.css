@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.t1 {
+   
+    width: 100%;
+    height: auto;
+    font-size: 3vh;
+    margin-top: 2.2rem;
+
+}
+
+.t2,.t3,.t4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 13rem;
+    font-size: 3.4vh;
+}
+.t2{
+   
+}
+.t21 img{
+    width: 1rem;
+
+}
+.m1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .m11 video {
+    width: 43rem;
+    
+    height: 28rem;
+    border-radius: 3rem;
+  }
